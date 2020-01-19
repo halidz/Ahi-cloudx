@@ -1,0 +1,16 @@
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.deps.json
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.Core.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.Core.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.csprojAssemblyReference.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.csproj.CoreCompileInputs.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.AssemblyInfoInputs.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.AssemblyInfo.cs
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.csproj.CopyComplete
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Business\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Business.pdb

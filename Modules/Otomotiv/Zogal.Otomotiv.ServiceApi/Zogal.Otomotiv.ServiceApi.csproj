@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModelV2>InProcess</AspNetCoreHostingModelV2>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\..\Shared Items\NHibernate\Antlr3.Runtime.DLL</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\..\Shared Items\NHibernate\Iesi.Collections.DLL</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Shared Items\Newtonsoft\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\Shared Items\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq.EagerFetching">
+      <HintPath>..\..\..\Shared Items\NHibernate\Remotion.Linq.EagerFetching.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Core">
+      <HintPath>..\..\..\Shared Items\Zogal\Core\Zogal.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.Business">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.BusinessImplementation">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.BusinessImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.Core">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.EntityModel">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.EntityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.NhMapping">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.NhMapping.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.ViewModel">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.ViewModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

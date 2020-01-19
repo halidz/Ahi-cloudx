@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.Core", "Modules\Core\Zogal.Core\Zogal.Core.csproj", "{E7997674-8EBD-4366-8430-C16B74123539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7997674-8EBD-4366-8430-C16B74123539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7997674-8EBD-4366-8430-C16B74123539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7997674-8EBD-4366-8430-C16B74123539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7997674-8EBD-4366-8430-C16B74123539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC414B9C-E259-46C4-A12A-B17F71582F8B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/mkarademir0367
+		SccProjectUniqueName0 = Modules\\Core\\Zogal.Core\\Zogal.Core.csproj
+		SccProjectName0 = Modules/Core/Zogal.Core
+		SccLocalPath0 = Modules\\Core\\Zogal.Core
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal

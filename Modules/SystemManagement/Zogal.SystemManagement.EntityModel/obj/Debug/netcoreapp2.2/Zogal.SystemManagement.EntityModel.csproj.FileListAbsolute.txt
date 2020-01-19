@@ -1,0 +1,14 @@
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.deps.json
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\bin\Debug\netcoreapp2.2\Zogal.Core.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\bin\Debug\netcoreapp2.2\Zogal.Core.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.csprojAssemblyReference.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.csproj.CoreCompileInputs.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.AssemblyInfoInputs.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.AssemblyInfo.cs
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.csproj.CopyComplete
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.EntityModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.EntityModel.pdb

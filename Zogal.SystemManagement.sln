@@ -1,0 +1,147 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{F6F35DD6-E769-4D0E-A027-9D0576D99B50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{B74AC151-D4FE-423A-8D40-4CC8E798AA98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{ADA0549E-B5A0-4E27-8BE2-3B4C7D804B01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.SystemManagement.EntityModel", "Modules\SystemManagement\Zogal.SystemManagement.EntityModel\Zogal.SystemManagement.EntityModel.csproj", "{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75} = {331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.SystemManagement.ViewModel", "Modules\SystemManagement\Zogal.SystemManagement.ViewModel\Zogal.SystemManagement.ViewModel.csproj", "{AFD2E74C-7F13-43B8-94F5-52888953E261}"
+	ProjectSection(ProjectDependencies) = postProject
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75} = {331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8890257D-C8F9-45D5-AB56-3FADFB9A66A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.SystemManagement.Core", "Modules\SystemManagement\Zogal.SystemManagement.Core\Zogal.SystemManagement.Core.csproj", "{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.SystemManagement.BusinessImplementation", "Modules\SystemManagement\Zogal.SystemManagement.BusinessImplementation\Zogal.SystemManagement.BusinessImplementation.csproj", "{9AB69662-3F5F-48CC-89F3-37CD5E0B4EF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{280F763B-56BB-462B-8165-E7D55FA5D92B} = {280F763B-56BB-462B-8165-E7D55FA5D92B}
+		{AFD2E74C-7F13-43B8-94F5-52888953E261} = {AFD2E74C-7F13-43B8-94F5-52888953E261}
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75} = {331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}
+		{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2} = {4B3339E7-6B88-4B38-9C35-95C4E2C92BF2}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.SystemManagement.Business", "Modules\SystemManagement\Zogal.SystemManagement.Business\Zogal.SystemManagement.Business.csproj", "{280F763B-56BB-462B-8165-E7D55FA5D92B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AFD2E74C-7F13-43B8-94F5-52888953E261} = {AFD2E74C-7F13-43B8-94F5-52888953E261}
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75} = {331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.SystemManagement.ServiceApi", "Modules\SystemManagement\Zogal.SystemManagement.ServiceApi\Zogal.SystemManagement.ServiceApi.csproj", "{CA132CF7-0DBD-4F1C-9B5C-FC5CBBB5E614}"
+	ProjectSection(ProjectDependencies) = postProject
+		{280F763B-56BB-462B-8165-E7D55FA5D92B} = {280F763B-56BB-462B-8165-E7D55FA5D92B}
+		{AFD2E74C-7F13-43B8-94F5-52888953E261} = {AFD2E74C-7F13-43B8-94F5-52888953E261}
+		{9AB69662-3F5F-48CC-89F3-37CD5E0B4EF5} = {9AB69662-3F5F-48CC-89F3-37CD5E0B4EF5}
+		{EEEE8F8E-24D9-4A79-B42A-25A52319DE00} = {EEEE8F8E-24D9-4A79-B42A-25A52319DE00}
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75} = {331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}
+		{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2} = {4B3339E7-6B88-4B38-9C35-95C4E2C92BF2}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapping", "Mapping", "{05665E8B-B2D9-4E2E-959D-9FB9A8780225}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.SystemManagement.NhMapping", "Modules\SystemManagement\Zogal.SystemManagement.NhMapping\Zogal.SystemManagement.NhMapping.csproj", "{EEEE8F8E-24D9-4A79-B42A-25A52319DE00}"
+	ProjectSection(ProjectDependencies) = postProject
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75} = {331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}
+		{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2} = {4B3339E7-6B88-4B38-9C35-95C4E2C92BF2}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{E2FA38F3-EB52-4968-978A-C1EC22933BEF}"
+	ProjectSection(SolutionItems) = preProject
+		Modules\SystemManagement\Items\InsertScript.sql = Modules\SystemManagement\Items\InsertScript.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD2E74C-7F13-43B8-94F5-52888953E261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD2E74C-7F13-43B8-94F5-52888953E261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD2E74C-7F13-43B8-94F5-52888953E261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD2E74C-7F13-43B8-94F5-52888953E261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB69662-3F5F-48CC-89F3-37CD5E0B4EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB69662-3F5F-48CC-89F3-37CD5E0B4EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB69662-3F5F-48CC-89F3-37CD5E0B4EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB69662-3F5F-48CC-89F3-37CD5E0B4EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280F763B-56BB-462B-8165-E7D55FA5D92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280F763B-56BB-462B-8165-E7D55FA5D92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280F763B-56BB-462B-8165-E7D55FA5D92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280F763B-56BB-462B-8165-E7D55FA5D92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA132CF7-0DBD-4F1C-9B5C-FC5CBBB5E614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA132CF7-0DBD-4F1C-9B5C-FC5CBBB5E614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA132CF7-0DBD-4F1C-9B5C-FC5CBBB5E614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA132CF7-0DBD-4F1C-9B5C-FC5CBBB5E614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEE8F8E-24D9-4A79-B42A-25A52319DE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEE8F8E-24D9-4A79-B42A-25A52319DE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEE8F8E-24D9-4A79-B42A-25A52319DE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEE8F8E-24D9-4A79-B42A-25A52319DE00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B3339E7-6B88-4B38-9C35-95C4E2C92BF2} = {F6F35DD6-E769-4D0E-A027-9D0576D99B50}
+		{AFD2E74C-7F13-43B8-94F5-52888953E261} = {F6F35DD6-E769-4D0E-A027-9D0576D99B50}
+		{331D3CE1-E1E5-4563-AEA2-0F5D36FAAF75} = {8890257D-C8F9-45D5-AB56-3FADFB9A66A4}
+		{9AB69662-3F5F-48CC-89F3-37CD5E0B4EF5} = {B74AC151-D4FE-423A-8D40-4CC8E798AA98}
+		{280F763B-56BB-462B-8165-E7D55FA5D92B} = {B74AC151-D4FE-423A-8D40-4CC8E798AA98}
+		{CA132CF7-0DBD-4F1C-9B5C-FC5CBBB5E614} = {ADA0549E-B5A0-4E27-8BE2-3B4C7D804B01}
+		{EEEE8F8E-24D9-4A79-B42A-25A52319DE00} = {05665E8B-B2D9-4E2E-959D-9FB9A8780225}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52D03938-43D7-4A74-92F3-552CA5317129}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://logper.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Modules\\SystemManagement\\Zogal.SystemManagement.EntityModel\\Zogal.SystemManagement.EntityModel.csproj
+		SccProjectTopLevelParentUniqueName1 = Zogal.SystemManagement.sln
+		SccProjectName1 = Modules/SystemManagement/Zogal.SystemManagement.EntityModel
+		SccLocalPath1 = Modules\\SystemManagement\\Zogal.SystemManagement.EntityModel
+		SccProjectUniqueName2 = Modules\\SystemManagement\\Zogal.SystemManagement.ViewModel\\Zogal.SystemManagement.ViewModel.csproj
+		SccProjectTopLevelParentUniqueName2 = Zogal.SystemManagement.sln
+		SccProjectName2 = Modules/SystemManagement/Zogal.SystemManagement.ViewModel
+		SccLocalPath2 = Modules\\SystemManagement\\Zogal.SystemManagement.ViewModel
+		SccProjectUniqueName3 = Modules\\SystemManagement\\Zogal.SystemManagement.Core\\Zogal.SystemManagement.Core.csproj
+		SccProjectTopLevelParentUniqueName3 = Zogal.SystemManagement.sln
+		SccProjectName3 = Modules/SystemManagement/Zogal.SystemManagement.Core
+		SccLocalPath3 = Modules\\SystemManagement\\Zogal.SystemManagement.Core
+		SccProjectUniqueName4 = Modules\\SystemManagement\\Zogal.SystemManagement.BusinessImplementation\\Zogal.SystemManagement.BusinessImplementation.csproj
+		SccProjectTopLevelParentUniqueName4 = Zogal.SystemManagement.sln
+		SccProjectName4 = Modules/SystemManagement/Zogal.SystemManagement.BusinessImplementation
+		SccLocalPath4 = Modules\\SystemManagement\\Zogal.SystemManagement.BusinessImplementation
+		SccProjectUniqueName5 = Modules\\SystemManagement\\Zogal.SystemManagement.Business\\Zogal.SystemManagement.Business.csproj
+		SccProjectTopLevelParentUniqueName5 = Zogal.SystemManagement.sln
+		SccProjectName5 = Modules/SystemManagement/Zogal.SystemManagement.Business
+		SccLocalPath5 = Modules\\SystemManagement\\Zogal.SystemManagement.Business
+		SccProjectUniqueName6 = Modules\\SystemManagement\\Zogal.SystemManagement.ServiceApi\\Zogal.SystemManagement.ServiceApi.csproj
+		SccProjectTopLevelParentUniqueName6 = Zogal.SystemManagement.sln
+		SccProjectName6 = Modules/SystemManagement/Zogal.SystemManagement.ServiceApi
+		SccLocalPath6 = Modules\\SystemManagement\\Zogal.SystemManagement.ServiceApi
+		SccProjectUniqueName7 = Modules\\SystemManagement\\Zogal.SystemManagement.NhMapping\\Zogal.SystemManagement.NhMapping.csproj
+		SccProjectTopLevelParentUniqueName7 = Zogal.SystemManagement.sln
+		SccProjectName7 = Modules/SystemManagement/Zogal.SystemManagement.NhMapping
+		SccLocalPath7 = Modules\\SystemManagement\\Zogal.SystemManagement.NhMapping
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,147 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9BE20892-035B-4947-B1ED-50E3B1DD7F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{92F4E1E7-A387-4957-9CFD-7F1285EBB51C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{FBFEBBD2-FD4D-4BE8-9EBD-B127DE75DADF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E3EECE78-9808-44F3-A4C1-EDA9A4089722}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.Otomotiv.Business", "Modules\Otomotiv\Zogal.Otomotiv.Business\Zogal.Otomotiv.Business.csproj", "{0AD443EB-FDFD-4421-846A-8E138FA5BF50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBAC8331-9AF6-494C-8803-9918972B5289} = {CBAC8331-9AF6-494C-8803-9918972B5289}
+		{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67} = {FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.Otomotiv.BusinessImplementation", "Modules\Otomotiv\Zogal.Otomotiv.BusinessImplementation\Zogal.Otomotiv.BusinessImplementation.csproj", "{065C0003-D0E1-4D3F-9F75-6C3941C8AD07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBAC8331-9AF6-494C-8803-9918972B5289} = {CBAC8331-9AF6-494C-8803-9918972B5289}
+		{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67} = {FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67}
+		{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11} = {8343E4CC-EFDE-4DC5-B0C8-D990922B0D11}
+		{0AD443EB-FDFD-4421-846A-8E138FA5BF50} = {0AD443EB-FDFD-4421-846A-8E138FA5BF50}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.Otomotiv.EntityModel", "Modules\Otomotiv\Zogal.Otomotiv.EntityModel\Zogal.Otomotiv.EntityModel.csproj", "{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBAC8331-9AF6-494C-8803-9918972B5289} = {CBAC8331-9AF6-494C-8803-9918972B5289}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.Otomotiv.ViewModel", "Modules\Otomotiv\Zogal.Otomotiv.ViewModel\Zogal.Otomotiv.ViewModel.csproj", "{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBAC8331-9AF6-494C-8803-9918972B5289} = {CBAC8331-9AF6-494C-8803-9918972B5289}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.Otomotiv.Core", "Modules\Otomotiv\Zogal.Otomotiv.Core\Zogal.Otomotiv.Core.csproj", "{CBAC8331-9AF6-494C-8803-9918972B5289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapping", "Mapping", "{79ACA239-4B1E-4465-8F9A-3056398B2AD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.Otomotiv.NhMapping", "Modules\Otomotiv\Zogal.Otomotiv.NhMapping\Zogal.Otomotiv.NhMapping.csproj", "{92678A0B-AFCE-450B-BEAF-D3DD5E306A28}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBAC8331-9AF6-494C-8803-9918972B5289} = {CBAC8331-9AF6-494C-8803-9918972B5289}
+		{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11} = {8343E4CC-EFDE-4DC5-B0C8-D990922B0D11}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zogal.Otomotiv.ServiceApi", "Modules\Otomotiv\Zogal.Otomotiv.ServiceApi\Zogal.Otomotiv.ServiceApi.csproj", "{3ABFDFC1-1B00-4FB3-BB2D-B6E01A725E67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{065C0003-D0E1-4D3F-9F75-6C3941C8AD07} = {065C0003-D0E1-4D3F-9F75-6C3941C8AD07}
+		{92678A0B-AFCE-450B-BEAF-D3DD5E306A28} = {92678A0B-AFCE-450B-BEAF-D3DD5E306A28}
+		{CBAC8331-9AF6-494C-8803-9918972B5289} = {CBAC8331-9AF6-494C-8803-9918972B5289}
+		{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67} = {FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67}
+		{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11} = {8343E4CC-EFDE-4DC5-B0C8-D990922B0D11}
+		{0AD443EB-FDFD-4421-846A-8E138FA5BF50} = {0AD443EB-FDFD-4421-846A-8E138FA5BF50}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{F06B8C01-E9B5-43DE-BC62-E26816689B06}"
+	ProjectSection(SolutionItems) = preProject
+		Modules\Otomotiv\Items\InsertScript.sql = Modules\Otomotiv\Items\InsertScript.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AD443EB-FDFD-4421-846A-8E138FA5BF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD443EB-FDFD-4421-846A-8E138FA5BF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD443EB-FDFD-4421-846A-8E138FA5BF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD443EB-FDFD-4421-846A-8E138FA5BF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065C0003-D0E1-4D3F-9F75-6C3941C8AD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065C0003-D0E1-4D3F-9F75-6C3941C8AD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065C0003-D0E1-4D3F-9F75-6C3941C8AD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065C0003-D0E1-4D3F-9F75-6C3941C8AD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAC8331-9AF6-494C-8803-9918972B5289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAC8331-9AF6-494C-8803-9918972B5289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAC8331-9AF6-494C-8803-9918972B5289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAC8331-9AF6-494C-8803-9918972B5289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92678A0B-AFCE-450B-BEAF-D3DD5E306A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92678A0B-AFCE-450B-BEAF-D3DD5E306A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92678A0B-AFCE-450B-BEAF-D3DD5E306A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92678A0B-AFCE-450B-BEAF-D3DD5E306A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABFDFC1-1B00-4FB3-BB2D-B6E01A725E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABFDFC1-1B00-4FB3-BB2D-B6E01A725E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABFDFC1-1B00-4FB3-BB2D-B6E01A725E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABFDFC1-1B00-4FB3-BB2D-B6E01A725E67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AD443EB-FDFD-4421-846A-8E138FA5BF50} = {92F4E1E7-A387-4957-9CFD-7F1285EBB51C}
+		{065C0003-D0E1-4D3F-9F75-6C3941C8AD07} = {92F4E1E7-A387-4957-9CFD-7F1285EBB51C}
+		{8343E4CC-EFDE-4DC5-B0C8-D990922B0D11} = {FBFEBBD2-FD4D-4BE8-9EBD-B127DE75DADF}
+		{FCBD9052-D6E4-4DE2-91FA-8FAA1C202D67} = {FBFEBBD2-FD4D-4BE8-9EBD-B127DE75DADF}
+		{CBAC8331-9AF6-494C-8803-9918972B5289} = {9BE20892-035B-4947-B1ED-50E3B1DD7F1E}
+		{92678A0B-AFCE-450B-BEAF-D3DD5E306A28} = {79ACA239-4B1E-4465-8F9A-3056398B2AD7}
+		{3ABFDFC1-1B00-4FB3-BB2D-B6E01A725E67} = {E3EECE78-9808-44F3-A4C1-EDA9A4089722}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB06FE1A-34FF-450B-8D65-E0CD67E6279F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://logper.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Modules\\Otomotiv\\Zogal.Otomotiv.Business\\Zogal.Otomotiv.Business.csproj
+		SccProjectTopLevelParentUniqueName1 = Zogal.Otomotiv.sln
+		SccProjectName1 = Modules/Otomotiv/Zogal.Otomotiv.Business
+		SccLocalPath1 = Modules\\Otomotiv\\Zogal.Otomotiv.Business
+		SccProjectUniqueName2 = Modules\\Otomotiv\\Zogal.Otomotiv.EntityModel\\Zogal.Otomotiv.EntityModel.csproj
+		SccProjectTopLevelParentUniqueName2 = Zogal.Otomotiv.sln
+		SccProjectName2 = Modules/Otomotiv/Zogal.Otomotiv.EntityModel
+		SccLocalPath2 = Modules\\Otomotiv\\Zogal.Otomotiv.EntityModel
+		SccProjectUniqueName3 = Modules\\Otomotiv\\Zogal.Otomotiv.Core\\Zogal.Otomotiv.Core.csproj
+		SccProjectTopLevelParentUniqueName3 = Zogal.Otomotiv.sln
+		SccProjectName3 = Modules/Otomotiv/Zogal.Otomotiv.Core
+		SccLocalPath3 = Modules\\Otomotiv\\Zogal.Otomotiv.Core
+		SccProjectUniqueName4 = Modules\\Otomotiv\\Zogal.Otomotiv.ServiceApi\\Zogal.Otomotiv.ServiceApi.csproj
+		SccProjectTopLevelParentUniqueName4 = Zogal.Otomotiv.sln
+		SccProjectName4 = Modules/Otomotiv/Zogal.Otomotiv.ServiceApi
+		SccLocalPath4 = Modules\\Otomotiv\\Zogal.Otomotiv.ServiceApi
+		SccProjectUniqueName5 = Modules\\Otomotiv\\Zogal.Otomotiv.BusinessImplementation\\Zogal.Otomotiv.BusinessImplementation.csproj
+		SccProjectTopLevelParentUniqueName5 = Zogal.Otomotiv.sln
+		SccProjectName5 = Modules/Otomotiv/Zogal.Otomotiv.BusinessImplementation
+		SccLocalPath5 = Modules\\Otomotiv\\Zogal.Otomotiv.BusinessImplementation
+		SccProjectUniqueName6 = Modules\\Otomotiv\\Zogal.Otomotiv.NhMapping\\Zogal.Otomotiv.NhMapping.csproj
+		SccProjectTopLevelParentUniqueName6 = Zogal.Otomotiv.sln
+		SccProjectName6 = Modules/Otomotiv/Zogal.Otomotiv.NhMapping
+		SccLocalPath6 = Modules\\Otomotiv\\Zogal.Otomotiv.NhMapping
+		SccProjectUniqueName7 = Modules\\Otomotiv\\Zogal.Otomotiv.ViewModel\\Zogal.Otomotiv.ViewModel.csproj
+		SccProjectTopLevelParentUniqueName7 = Zogal.Otomotiv.sln
+		SccProjectName7 = Modules/Otomotiv/Zogal.Otomotiv.ViewModel
+		SccLocalPath7 = Modules\\Otomotiv\\Zogal.Otomotiv.ViewModel
+	EndGlobalSection
+EndGlobal

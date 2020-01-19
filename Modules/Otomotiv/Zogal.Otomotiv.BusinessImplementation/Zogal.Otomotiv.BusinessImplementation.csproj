@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.94.2" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Shared Items\Newtonsoft\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Core">
+      <HintPath>..\..\..\Shared Items\Zogal\Core\Zogal.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.Business">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.Core">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.EntityModel">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.EntityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Zogal.Otomotiv.ViewModel">
+      <HintPath>..\..\..\Shared Items\Zogal\Otomotiv\Zogal.Otomotiv.ViewModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy &quot;$(OutDir)$(TargetName).*&quot; &quot;$(SolutionDir)Shared Items\Zogal\Otomotiv&quot;&#xD;&#xA;" />
+  </Target>
+
+</Project>

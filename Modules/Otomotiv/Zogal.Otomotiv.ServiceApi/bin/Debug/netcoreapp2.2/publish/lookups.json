@@ -1,0 +1,64 @@
+{
+  "accounTypes": {
+    "Credit": "1",
+    "Debit": "2",
+    "None": "0"
+  },
+  "paymentInfo": {
+    "None": "0",
+    "NotPaid": "2",
+    "Paid": "1"
+  },
+  "paymentMethod": {
+    "None":"0",
+    "Cash":"1",
+    "CreditCard":"2"
+  },
+  "vehicleTypes": [
+    {
+      "value": "otomobil",
+      "text": "Otomobil"
+    },
+    {
+      "value": "suv",
+      "text": "Arazi, SUV & Pickup"
+    },
+    {
+      "value": "motorsiklet",
+      "text": "Motorsiklet"
+    },
+    {
+      "value": "ticari",
+      "text": "Ticari Araçlar"
+    },
+    {
+      "value": "minivan",
+      "text": "Minivan & Panelvan"
+    },
+    {
+      "value": "atv",
+      "text": "ATV"
+    },
+    {
+      "value": "karavan",
+      "text": "Karavan"
+    }
+  ],
+
+  "operationType": {
+    "httpRequestUrl": "https://ahioto.com.tr/services/oto/api/operation/searchOpType",
+    "request body Example": {
+
+      "filter": {
+        "accountType": 1
+      },
+
+      "paginationInfo": {
+        "pageSize": "10",
+        "pageIndex": "1"
+      }
+    }
+  },
+
+
+}

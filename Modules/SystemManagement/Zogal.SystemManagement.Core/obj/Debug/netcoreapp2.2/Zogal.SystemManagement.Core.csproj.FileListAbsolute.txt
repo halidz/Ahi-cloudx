@@ -1,0 +1,9 @@
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.deps.json
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.csprojAssemblyReference.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.csproj.CoreCompileInputs.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.AssemblyInfoInputs.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.AssemblyInfo.cs
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.Core\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.pdb

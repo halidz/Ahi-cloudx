@@ -1,0 +1,12 @@
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\bin\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.deps.json
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\bin\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.dll
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\bin\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.pdb
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\bin\Debug\netcoreapp2.2\Zogal.Core.dll
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\bin\Debug\netcoreapp2.2\Zogal.Core.pdb
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\obj\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.csproj.CoreCompileInputs.cache
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\obj\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.AssemblyInfoInputs.cache
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\obj\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.AssemblyInfo.cs
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\obj\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.csproj.CopyComplete
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\obj\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.dll
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\obj\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.pdb
+C:\Ahi-cloudx\Modules\Otomotiv\Zogal.Otomotiv.Core\obj\Debug\netcoreapp2.2\Zogal.Otomotiv.Core.csprojAssemblyReference.cache

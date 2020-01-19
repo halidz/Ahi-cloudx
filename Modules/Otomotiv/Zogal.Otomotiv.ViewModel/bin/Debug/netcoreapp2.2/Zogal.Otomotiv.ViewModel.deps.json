@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Zogal.Otomotiv.ViewModel/1.0.0": {
+        "dependencies": {
+          "Zogal.Core": "1.0.0.0",
+          "Zogal.Otomotiv.Core": "1.0.0.0"
+        },
+        "runtime": {
+          "Zogal.Otomotiv.ViewModel.dll": {}
+        }
+      },
+      "Zogal.Core/1.0.0.0": {
+        "runtime": {
+          "Zogal.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Zogal.Otomotiv.Core/1.0.0.0": {
+        "runtime": {
+          "Zogal.Otomotiv.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zogal.Otomotiv.ViewModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zogal.Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zogal.Otomotiv.Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

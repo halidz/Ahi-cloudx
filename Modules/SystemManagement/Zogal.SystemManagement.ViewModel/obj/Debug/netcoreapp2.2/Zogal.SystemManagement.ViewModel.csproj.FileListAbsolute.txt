@@ -1,0 +1,12 @@
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.deps.json
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\bin\Debug\netcoreapp2.2\Zogal.SystemManagement.Core.pdb
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.csprojAssemblyReference.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.csproj.CoreCompileInputs.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.AssemblyInfoInputs.cache
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.AssemblyInfo.cs
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.csproj.CopyComplete
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.dll
+C:\Ahi-cloudx\Modules\SystemManagement\Zogal.SystemManagement.ViewModel\obj\Debug\netcoreapp2.2\Zogal.SystemManagement.ViewModel.pdb
